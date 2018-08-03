@@ -1,15 +1,9 @@
 package interfaceIsVehicle;
 
-import java.util.*;
-
-/**
- * 
- */
 public interface IsSeaVessel extends IsVehicle {
 
-    /**
-     * 
-     */
-    public int displacement;
+    public int getDisplacement();
+
+    public void setDisplacement(int displacement);
 
 }
