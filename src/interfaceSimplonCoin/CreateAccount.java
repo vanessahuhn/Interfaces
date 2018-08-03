@@ -1,41 +1,12 @@
 package interfaceSimplonCoin;
 
-import java.util.*;
-
-/**
- * 
- */
 public class CreateAccount {
 
-    /**
-     * Default constructor
-     */
-    public CreateAccount() {
-    }
+	AccountMain pierreAccountMain;
+    AccountMain aureliaAccountMain;
+    AccountPEL pierreAccountPEL;
+    AccountPEL aureliaAccountPEL;
 
-    /**
-     * 
-     */
-    public AccountMain pierreAccountMain;
-
-    /**
-     * 
-     */
-    public AccountMain aureliaAccountMain;
-
-    /**
-     * 
-     */
-    public AccountPEL pierreAccountPEL;
-
-    /**
-     * 
-     */
-    public AccountPEL aureliaAccountPEL;
-
-    /**
-     * 
-     */
     public void main() {
         // TODO implement here
     }
