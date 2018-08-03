@@ -7,7 +7,7 @@ public class HotelApplication {
 		HotelCinqEtoiles hotel5 = new HotelCinqEtoiles();
 		
 		//initialisation de la longueur de la piscine
-		hotel5.setLongueurPiscine(10);
+		hotel5.setLongueurPiscine(25);
 		//initialisation du modèle du taxi
 		hotel5.setModeleTaxi("Renault Laguna");
 		//appel méthodes pour afficher les infos sur la piscine et le taxi
