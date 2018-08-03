@@ -6,11 +6,27 @@ public class HotelCinqEtoiles implements HotelLuxe {
 	public String modeleTaxi;
 	
 	public void descriptionPiscineLuxe() {
-        // TODO implement here
+        System.out.println("La piscine fait " + longueurPiscine + " mètres de long.");
     }
 	
+	public int getLongueurPiscine() {
+		return longueurPiscine;
+	}
+
+	public void setLongueurPiscine(int longueurPiscine) {
+		this.longueurPiscine = longueurPiscine;
+	}
+
+	public String getModeleTaxi() {
+		return modeleTaxi;
+	}
+
+	public void setModeleTaxi(String modeleTaxi) {
+		this.modeleTaxi = modeleTaxi;
+	}
+
 	public void reserverTaxiLuxe() {
-        // TODO implement here
+		System.out.println("Modèle du taxi réservé : " + modeleTaxi);
     }
 
 }
