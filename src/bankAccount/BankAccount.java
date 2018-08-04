@@ -22,6 +22,7 @@ public class BankAccount implements BankAccountSpecification {
      */
     public void deposit(int amount) {
         balance = balance + amount;
+        System.out.println("Vous avez depose " + amount + " euros sur votre compte. Votre nouveau solde est de : " + balance + " euros.");
     }
 
     /**
@@ -31,8 +32,10 @@ public class BankAccount implements BankAccountSpecification {
     public boolean withdraw(int amount) {
         if (amount <= balance) {
         	balance = balance - amount;
+        	System.out.println("Vous avez retire " + amount + " euros de votre compte. Votre nouveau solde est de : " + balance + " euros.");
         	return true;
         }
+        System.out.println("Solde insuffisant. Vousne pouvez pas retirer " + amount + " euros. Votre retrait maximum est de : " + balance + " euros.");
         return false;
     }
 
