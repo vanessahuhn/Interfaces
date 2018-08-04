@@ -1,12 +1,10 @@
 package interfaceIsVehicle;
 
 /**
- * 
+ * interface mère
  */
 public interface IsVehicle {
-
-    
-
+	//signature des getters et setters partagés par les deux interfaces filles
     /**
      * @return
      */

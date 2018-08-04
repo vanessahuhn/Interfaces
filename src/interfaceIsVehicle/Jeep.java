@@ -1,37 +1,31 @@
 package interfaceIsVehicle;
 
 /**
- * 
+ * classe Jeep qui implémente l'interface IsLandVessel qui hérite de l'interface IsVehicle
  */
 public class Jeep implements IsLandVessel {
 
 	/**
-     * 
+     * déclaration et instanciation des attributs de la classe Jeep
      */
     String name = null;
 
-    /**
-     * 
-     */
     int maxPassengers = 0;
 
-    /**
-     * 
-     */
     int maxSpeed = 0;
     
-    /**
-     * 
-     */
     int numWheels = 0;
 	
     /**
-     * 
+     * déclaration de la méthode soundHorn() spécifique à la classe Jeep
      */
 	public void soundHorn() {
         System.out.println("BIP BIIIIP");
     }
-
+	
+	/**
+     * déclaration des getters et setters de la classe Jeep
+     */
 	public String getName() {
 		return name;
 	}
