@@ -1,7 +1,5 @@
 package interfaceIsVehicle;
 
-import java.util.*;
-
 /**
  * 
  */

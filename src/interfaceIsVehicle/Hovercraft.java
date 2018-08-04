@@ -1,17 +1,9 @@
 package interfaceIsVehicle;
 
-import java.util.*;
-
 /**
  * 
  */
 public class Hovercraft implements IsLandVessel, IsSeaVessel {
-
-    /**
-     * Default constructor
-     */
-    public Hovercraft() {
-    }
 
     /**
      * 
