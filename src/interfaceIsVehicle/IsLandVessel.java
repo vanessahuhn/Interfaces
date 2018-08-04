@@ -5,11 +5,11 @@ import java.util.*;
 /**
  * 
  */
-public interface IsSeaVessel extends IsVehicle {
+public interface IsLandVessel extends IsVehicle {
 
     /**
      * 
      */
-    public int displacement = 0;
+    public int numWheels = 0;
 
 }

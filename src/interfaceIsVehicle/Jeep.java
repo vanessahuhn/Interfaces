@@ -1,20 +1,22 @@
 package interfaceIsVehicle;
 
-public class Jeep implements IsLandVehicle {
+import java.util.*;
 
+/**
+ * 
+ */
+public class Jeep implements IsLandVessel {
+
+    /**
+     * Default constructor
+     */
     public Jeep() {
     }
 
-    public void soudHorn() {
-        // TODO implement here
-    }
-
-    public int getNumWheels() {
-        // TODO implement here
-        return 0;
-    }
-
-    public void setNumWheels(int numWheels) {
+    /**
+     * 
+     */
+    public void soundHorn() {
         // TODO implement here
     }
 
