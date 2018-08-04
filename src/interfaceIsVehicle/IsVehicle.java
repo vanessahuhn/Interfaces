@@ -1,26 +1,11 @@
 package interfaceIsVehicle;
 
-import java.util.*;
-
 /**
  * 
  */
 public interface IsVehicle {
 
-    /**
-     * 
-     */
-    public String name = "";
-
-    /**
-     * 
-     */
-    public int maxPassengers = 0;
-
-    /**
-     * 
-     */
-    public int maxSpeed = 0;
+    
 
     /**
      * @return
@@ -35,21 +20,21 @@ public interface IsVehicle {
     /**
      * @return
      */
-    public int getMaxPassengers();
+    int getMaxPassengers();
 
     /**
      * @param value
      */
-    public void setMaxPassengers(int value);
+    void setMaxPassengers(int value);
 
     /**
      * @return
      */
-    public int getMaxSpeed();
+    int getMaxSpeed();
 
     /**
      * @param value
      */
-    public void setMaxSpeed(int value);
+    void setMaxSpeed(int value);
 
 }
