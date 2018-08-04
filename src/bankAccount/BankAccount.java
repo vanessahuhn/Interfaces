@@ -1,28 +1,27 @@
 package bankAccount;
 
-import java.util.*;
-
 /**
- * 
+ * BankAccount manages a single bank account
+ * it implements the BankAccountSpecification
  */
 public class BankAccount implements BankAccountSpecification {
 
     /**
+     * the account's balance
+     */
+    private int balance;
+    /**
      * Default constructor
      */
     public BankAccount() {
+    	balance = 0;
     }
-
-    /**
-     * 
-     */
-    private int balance;
 
     /**
      * @param amount
      */
     public void deposit(int amount) {
-        // TODO implement here
+        balance = balance + amount;
     }
 
     /**
@@ -30,7 +29,10 @@ public class BankAccount implements BankAccountSpecification {
      * @return
      */
     public boolean withdraw(int amount) {
-        // TODO implement here
+        if (amount <= balance) {
+        	balance = balance - amount;
+        	return true;
+        }
         return false;
     }
 
