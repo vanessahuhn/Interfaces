@@ -6,11 +6,11 @@ public class HotelSeptEtoiles implements HotelLuxe {
 	public String modeleTaxi;
 	
 	public void descriptionPiscineLuxe() {
-		System.out.println("La piscine fait " + longueurPiscine + " mètres de long.");
+		System.out.println("La piscine fait " + getLongueurPiscine() + " mètres de long.");
     }
 	
 	public void reserverTaxiLuxe() {
-		System.out.println("Modèle du taxi réservé : " + modeleTaxi);
+		System.out.println("Modèle du taxi réservé : " + getModeleTaxi());
     }
 
 	public int getLongueurPiscine() {
